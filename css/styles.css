@@ -21,6 +21,7 @@ img {
 header {
   padding: 3em 0;
   color: #FFF;
+  background-color: #444B6E;
   background: linear-gradient(rgba(68, 75, 110, 0.85), rgba(68, 75, 110, 0.85)), url(/images/stars.jpg) center center no-repeat;
 
   -webkit-background-size: cover;
@@ -111,6 +112,7 @@ footer {
   margin-top: 3em;
   padding: 6em 0 3em;
   color: #FFF;
+  background-color: #00A8E8;
   background: url(/images/constellation.png) center top 20px no-repeat, url(/images/trees.png) center bottom no-repeat, #00A8E8;
 }
 
