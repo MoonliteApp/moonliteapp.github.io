@@ -6,6 +6,10 @@ img {
   box-sizing: border-box;
 }
 
+p {
+  font-size: 1.1em;
+}
+
 .crisp {
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
@@ -19,158 +23,214 @@ img {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 header {
-  padding: 3em 0;
+  padding: 20px 0 10px;
   color: #FFF;
-  background-color: #444B6E;
-  background: linear-gradient(rgba(68, 75, 110, 0.85), rgba(68, 75, 110, 0.85)), url(/images/stars.jpg) center center no-repeat;
-
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+  background-color: #FFF;
 }
 
-header h1 {
-  font-size: 2em;
+header form {
+  margin-bottom: 0;
+  float: right;
+}
+
+@media (max-width: 960px) {
+  header form {
+    margin-top: 20px;
+    margin-bottom: 0;
+    float: none;
+  }
+}
+
+header input[type="email"] {
+  background-color: #F9F8F8;
+  color: #2E4249;
+  min-width: 220px;
+}
+
+.logo {
+  height: 27px;
+  width: 133px;
+  margin-top: 5px;
+  overflow:hidden;
+  text-indent:100%;
+  white-space:nowrap;
+
+  transition: all ease 0.12s;
+}
+
+a .logo:hover, a .logo:focus {
+  opacity: 0.6;
+}
+
+
+/* Hero
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+#hero {
+  text-align: center;
+  background: url(/images/constellation.png) center top 20px no-repeat, url(/images/trees.png) center bottom no-repeat, #525174;
+}
+
+#hero h1 {
+  font-size: 34px;
+  font-weight: 700;
+  color: #FFF;
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);
+  padding-top: 3em;
 }
 
 @media (max-width: 550px) {
-  header h1 {
+  #hero h1 {
     font-size: 1.6em;
   }
 }
 
-header p {
-  opacity: 0.85;
-  margin-bottom: 2em;
-}
-
-.logo {
-  display: block;
-  height: 63px;
-  width: 187px;
-  background: url(/images/logo@2x.png) no-repeat center center;
-  background-size: 187px 63px;
-  overflow:hidden;
-  text-indent:100%;
-  white-space:nowrap;
-  margin-left: -0.85em;
-  margin-bottom: 2em;
+#hero img {
+  width: 600px;
+  margin: 15px 0 -150px;
 }
 
 
-/* Features
+
+/* Content
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
-.features {
-  text-align: center;
+#content {
+  margin: 170px auto 0;
+  max-width: 620px;
 }
 
-.features h2 {
-  margin: 2em 0;
-  font-size: 1.8em;
+#content form {
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+#content input[type="email"] {
+  min-width: 270px;
+}
+
+.help {
+  font-size: 15px;
+  color: #8D99AE;
+}
+
+#content h2 {
+  font-size: 24px;
+  color: #8D99AE;
+  letter-spacing: 0.01em;
+  text-align: center;
+  font-style: italic;
+  margin: 3em 0 2em;
+}
+
+#content h4 {
+  font-size: 18px;
+  font-weight: 700;
+  letter-spacing: 0;
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+}
+
+#content ul {
+  list-style: none;
+}
+
+#content ul p {
   color: #8D99AE;
 }
 
 @media (max-width: 550px) {
-  .features h2 {
+  #content h2 {
     font-size: 1.4em;
   }
 }
 
-.features img {
-  max-width: 220px;
-  border: 1px solid #8D99AE;
-
-  -webkit-border-radius: 70px;
-  -moz-border-radius: 70px;
-  border-radius: 260px;
-
-  -moz-box-shadow: 0 0 0 10px rgba(141, 153, 174, 0.08), 0 2px 12px rgba(0, 0, 0, 0.15);
-  -webkit-box-shadow: 0 0 0 10px rgba(141, 153, 174, 0.08), 0 2px 12px rgba(0, 0, 0, 0.15);
-  box-shadow: 0 0 0 10px rgba(141, 153, 174, 0.08), 0 2px 12px rgba(0, 0, 0, 0.15);
+#content img {
+  margin: 80px 80px -3px 0;
+  height: 50px;
+  width: 89px;
+  float: right;
 }
 
-.features h3 {
-  margin: 1.25em 0 0.75em;
-  font-size: 1em;
+
+
+/* Pricing
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+#pricing {
+  background-color: #00A8E8;
+  color: #FFF;
+  padding: 3em 0 4em;
+  text-align: center;
+}
+
+#pricing h2 {
+  font-size: 28px;
   font-weight: 700;
-  letter-spacing: 0.01em;
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);
+  letter-spacing: 0;
 }
 
-.features p {
-  margin-bottom: 3em;
-  font-size: 0.9em;
-  color: #8D99AE;
+#pricing-block {
+  background-color: #33B9EC;
+  max-width: 340px;
+  padding: 0 2em 1em;
+  border-radius: 8px;
+  margin: 3em auto 0;
 }
 
+#price {
+  font-size: 120px;
+  font-weight: 700;
+  text-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  margin-left: -35px;
+}
+
+#price sup {
+  font-weight: 400;
+  font-size: 67px;
+  margin-right: 5px;
+}
+
+.label {
+  font-size: 16px;
+  font-weight: 700;
+  letter-spacing: 0.02em;
+  margin-top: -25px;
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.1);
+}
+
+#pricing p {
+  font-size: 15px;
+  color: rgba(255, 255, 255, 0.85);
+  margin-top: 20px;
+}
 
 /* Footer
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 footer {
-  margin-top: 3em;
-  padding: 6em 0 3em;
-  color: #FFF;
-  background-color: #00A8E8;
-  background: url(/images/constellation.png) center top 20px no-repeat, url(/images/trees.png) center bottom no-repeat, #00A8E8;
-}
-
-footer h2 {
-  font-size: 1.8em;
-  font-weight: 700;
-  letter-spacing: 0;
-}
-
-@media (max-width: 550px) {
-  footer h2 {
-    font-size: 1.6em;
-  }
-}
-
-footer p {
-  opacity: 0.85;
-}
-
-footer ul {
-  padding-left: 1.35em;
-  text-indent: -1.35em;
-}
-
-footer li {
-  list-style: none;
-  display: block;
-}
-
-footer li:before
-{
-    content: '✔';
-    padding-right: 0.5em;
-    color: #444B6E;
-}
-
-.copy {
-  margin-top: 3em;
-  font-size: 0.9em;
+  padding: 2em 0 1em;
+  color: #8D99AE;
   text-align: center;
 }
 
-footer .button {
-  background-color: #444B6E;
+footer img {
+  margin: 0 auto;
 }
 
-footer input[type="email"] {
-  background-color: #FFF;
-  color: #2B2D42;
-  min-width: 280px;
+.copy {
+  margin-top: 1em;
+  font-size: 0.9em;
 }
+
 
 
 /* Subscribe confirmation
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .splash {
-  background: url(/images/constellation.png) center top 20px no-repeat fixed, url(/images/trees.png) center bottom no-repeat fixed, #444B6E;
+  background: url(/images/constellation.png) center top 20px no-repeat fixed, url(/images/trees.png) center bottom no-repeat fixed, #525174;
 }
 
 .splash .container {
@@ -186,7 +246,10 @@ footer input[type="email"] {
 }
 
 .splash h1 {
-  font-size: 2.5em;
+  font-size: 34px;
+  font-weight: 700;
+  color: #FFF;
+  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);
   margin-bottom: 1em;
 }
 
