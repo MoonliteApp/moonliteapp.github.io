@@ -39,8 +39,6 @@ a .logo:hover, a .logo:focus {
 
 header {
   padding: 20px 0 10px;
-  color: #FFF;
-  background-color: #FFF;
 }
 
 header form {
@@ -48,7 +46,7 @@ header form {
   float: right;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 760px) {
   header form {
     margin-top: 20px;
     margin-bottom: 0;
