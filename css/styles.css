@@ -64,7 +64,8 @@ header input[type="email"] {
 
 #hero {
   text-align: center;
-  background: url(/images/constellation.png) center top 20px no-repeat, url(/images/trees.png) center bottom no-repeat, #525174;
+  background-color: #525174;
+  background: url(/images/constellation.png) center top 20px no-repeat, url(/images/trees.png) center bottom no-repeat, linear-gradient(to top left, #525174 50%, #6E6E8C);
 }
 
 #hero h1 {
