@@ -46,7 +46,7 @@ header form {
   float: right;
 }
 
-@media (max-width: 760px) {
+@media (max-width: 600px) {
   header form {
     margin-top: 20px;
     margin-bottom: 0;
