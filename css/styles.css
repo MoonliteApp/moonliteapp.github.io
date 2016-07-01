@@ -84,7 +84,7 @@ header input[type="email"] {
 
 #hero img {
   width: 600px;
-  margin: 15px 0 -150px;
+  margin: 15px 0 -105px;
 }
 
 
@@ -92,7 +92,7 @@ header input[type="email"] {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 #content {
-  padding-top: 170px;
+  padding-top: 125px;
   background: linear-gradient(to top, #FFFFFF 90%, #E1E3E4);
 }
 
