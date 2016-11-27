@@ -5,6 +5,12 @@ body {
   border: 10px solid #E1E3E4;
 }
 
+@media (max-width: 550px) {
+  body {
+    border: none;
+  }
+}
+
 img {
   max-width: 100%;
   box-sizing: border-box;
