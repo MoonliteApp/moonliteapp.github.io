@@ -136,19 +136,33 @@ a .logo:hover, a .logo:focus {
 .screenshot {
   background-color: #F9F8F8;
   padding: 2em;
-  margin: 4em 0 0em;
+  margin: 4em 0 0;
 }
 
 @media (max-width: 550px) {
   .screenshot {
     padding: 0;
     background-color: #FFF;
-    margin: 2em 0 0em;
+    margin: 2em 0 0;
   }
 }
 
 .screenshot img {
-  box-shadow: 0 6px 40px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 6px 40px rgba(0, 0, 0, 0.12);
+}
+
+.screenshot video {
+  object-fit: cover;
+  width: 100%;
+  margin-top: -3.6%;
+}
+
+.walkthrough {
+  box-shadow: 0 6px 40px rgba(0, 0, 0, 0.12);
+  position: relative;
+  overflow: hidden;
+  height: 0;
+  padding-bottom: 55.2%;
 }
 
 #content hr {
