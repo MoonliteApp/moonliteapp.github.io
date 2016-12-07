@@ -152,17 +152,8 @@ a .logo:hover, a .logo:focus {
 }
 
 .screenshot video {
-  object-fit: cover;
   width: 100%;
-  margin-top: -3.6%;
-}
-
-.walkthrough {
   box-shadow: 0 6px 40px rgba(0, 0, 0, 0.12);
-  position: relative;
-  overflow: hidden;
-  height: 0;
-  padding-bottom: 55.2%;
 }
 
 #content hr {
