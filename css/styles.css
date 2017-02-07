@@ -266,6 +266,61 @@ header {
 }
 
 
+/* Legal stuff
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.contract {
+  max-width: 960px;
+  margin: 4em auto;
+}
+
+.contract h1 {
+  font-weight: 700;
+  font-size: 28px;
+}
+
+.contract h2 {
+  font-size: 24px;
+}
+
+.contract h3 {
+  /*font-weight: 700;*/
+  font-size: 24px;
+  margin-top: 1em;
+}
+
+.contract p {
+  font-size: 16px;
+}
+
+.setup {
+  margin-bottom: 3em;
+}
+
+.section {
+  margin-top: 1em;
+  line-height: 1.6;
+}
+
+.explain {
+  padding-left: 1em;
+  border-left: 2px solid #00A8E8;
+  margin-bottom: 2em;
+}
+
+.explain h4 {
+  font-size: 16px;
+  margin-bottom: 0.5em;
+}
+
+.explain p {
+  font-size: 14px;
+  color: #8D99AE;
+  line-height: 1.6;
+  margin-bottom: 0;
+}
+
+
 /* Footer
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
