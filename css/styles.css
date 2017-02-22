@@ -169,64 +169,17 @@ a .logo:hover, a .logo:focus {
 
 .audience {
   margin-bottom: 2em;
+  text-align: left;
 }
 
 .audience h3 {
   margin-top: 3em !important;
+  font-size: 20px !important;
 }
 
 .audience p {
-  max-width: 440px !important;
-  font-size: 18px;
-}
-
-
-/* CTA
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-
-#cta {
-  color: #FFF;
-  padding: 6em 0;
-  background: #525174;
-  background: url(/images/beach.png) center center, #525174;
-  background-size: cover;
-}
-
-@media (max-width: 550px) {
-  #cta {
-    background: #525174;
-    padding: 3em 0;
-  }
-}
-
-#cta h2 {
-  font-size: 28px;
-  font-weight: 700;
-  text-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);
-  letter-spacing: 0;
-}
-
-@media (max-width: 550px) {
-  #cta h2 {
-    font-size: 24px;
-  }
-}
-
-#cta p {
+  /*max-width: 440px !important;*/
   font-size: 16px;
-  color: rgba(255, 255, 255, 0.85);
-  margin-top: 20px;
-}
-
-#cta form {
-  margin: 10px 0 0;
-  float: right;
-}
-
-@media (max-width: 760px) {
-  #cta form {
-    float: left;
-  }
 }
 
 
@@ -266,7 +219,7 @@ header {
 }
 
 
-/* Legal stuff
+/* Standard contract
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .contract {
@@ -327,6 +280,7 @@ header {
 footer {
   padding: 3em 3em 1em;
   color: #8D99AE;
+  background-color: #F9F8F8;
 }
 
 footer .container {
