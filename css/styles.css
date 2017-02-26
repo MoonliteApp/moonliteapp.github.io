@@ -22,7 +22,8 @@ p {
 
 form {
   max-width: 280px;
-  margin: 0 auto;
+  z-index: 100;
+  position: relative;
 }
 
 input {
@@ -54,49 +55,76 @@ a .logo:hover, a .logo:focus {
   cursor: pointer;
 }
 
-.container {
-  max-width: 880px;
-}
-
 
 /* Hero
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 #hero {
-  text-align: center;
   background: #525174;
-  background: url(/images/constellation.png) center top 20px no-repeat, url(/images/trees.png) center bottom no-repeat, url(/images/cabin.png) no-repeat center center / cover, #525174;
-  padding: 8em 0 6em;
+  background: url(/images/background.jpg) no-repeat top center / cover, #525174;
+  padding: 5em 0 5em;
+  color: #FFF;
+  position: relative;
 }
 
 @media (max-width: 550px) {
   #hero {
-    background: #525174;
     padding: 3em 0;
+  }
+  #hero h1 {
+    display: none;
+  }
+  form {
+    max-width: 100%;
   }
 }
 
 #hero h1 {
-  opacity: 0.7;
-  font-style: italic;
-  font-size: 20px;
-  color: #FFF;
-  /*text-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);*/
-  padding: 1.5em 0 1em;
+  font-size: 28px;
+  font-weight: 700;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  margin-bottom: 0.5em;
+  opacity: 0.95;
+}
+
+#hero p {
+  opacity: 0.85;
+  font-size: 18px;
+}
+
+.moon {
+  margin-bottom: 4em;
+  text-align: center;
 }
 
 @media (max-width: 550px) {
-  #hero h1 {
-    font-size: 1.2em;
+  .moon {
+    margin-bottom: 2em;
   }
 }
 
+.walkthrough img {
+  box-shadow: 0 6px 40px rgba(255, 255, 255, 0.4);
+}
+
+.walkthrough video {
+  width: 100%;
+  box-shadow: 0 6px 40px rgba(255, 255, 255, 0.5);
+  border-radius: 2px;
+}
+
+.foreground img {
+  display: block;
+  position: absolute;
+  bottom: 0;
+  max-height: 313px;
+}
 
 /* Content
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 #content {
-  padding: 6em 0;
+  padding: 2.5em 0 6em;
   text-align: center;
 }
 
@@ -124,7 +152,8 @@ a .logo:hover, a .logo:focus {
   font-size: 22px;
   font-weight: 400;
   letter-spacing: -0.02em;
-  margin: 1em 0;
+  margin: 1em auto;
+  max-width: 360px;
 }
 
 #content p {
@@ -133,33 +162,10 @@ a .logo:hover, a .logo:focus {
   margin: 0 auto;
 }
 
-.screenshot {
-  background-color: #F9F8F8;
-  padding: 2em;
-  margin: 4em 0 0;
-}
-
-@media (max-width: 550px) {
-  .screenshot {
-    padding: 0;
-    background-color: #FFF;
-    margin: 2em 0 0;
-  }
-}
-
-.screenshot img {
-  box-shadow: 0 6px 40px rgba(0, 0, 0, 0.12);
-}
-
-.screenshot video {
-  width: 100%;
-  box-shadow: 0 6px 40px rgba(0, 0, 0, 0.12);
-}
-
 #content hr {
   width: 50px;
   border-top: 2px solid #E1E3E4;
-  margin: 8em auto 2em;
+  margin: 6em auto 2em;
 }
 
 .benefits img {
