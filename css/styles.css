@@ -62,7 +62,7 @@ a .logo:hover, a .logo:focus {
 #hero {
   background: #525174;
   background: url(/images/background.jpg) no-repeat top center / cover, #525174;
-  padding: 5em 0 5em;
+  padding: 4em 0 5em;
   color: #FFF;
   position: relative;
 }
