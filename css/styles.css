@@ -280,6 +280,31 @@ header {
 }
 
 
+/* Support
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.support {
+  max-width: 680px;
+  margin: 4em auto 6em;
+}
+.support h2 {
+  font-weight: 700;
+  font-size: 28px;
+  margin-top: 2em;
+}
+
+.support h3 {
+  font-size: 22px;
+  margin: 2em 0 0.5em;
+  font-style: italic;
+}
+
+.support p {
+  font-size: 16px;
+  color: #8D99AE;
+}
+
+
 /* Footer
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
