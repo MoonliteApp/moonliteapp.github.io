@@ -451,27 +451,30 @@ footer ul li a:hover, footer ul li a:focus {
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
 .splash {
-  background: url(/images/constellation.png) center top 20px no-repeat fixed, url(/images/trees.png) center bottom no-repeat fixed, #525174;
+  background: url(/images/hero-bg.jpg) center top no-repeat / cover;
+  border: none;
+  height: 100vh;
 }
 
 .splash .container {
-  margin: 4em auto;
-  max-width: 32em;
+  margin: 2em auto;
+  max-width: 20em;
   color: #FFF;
   text-align: center;
 }
 
 .splash img {
-  max-width: 180px;
+  max-width: 120px;
   text-align: center;
 }
 
 .splash h1 {
-  font-size: 34px;
+  font-size: 28px;
+  text-align: left;
   font-weight: 700;
   color: #FFF;
   text-shadow: 0 2px 0 rgba(0, 0, 0, 0.2);
-  margin-bottom: 1em;
+  margin: 0.5em auto 1em;
 }
 
 @media (max-width: 550px) {
@@ -482,9 +485,8 @@ footer ul li a:hover, footer ul li a:focus {
 
 .splash .desc {
   margin: 0 auto;
-  max-width: 20em;
   text-align: left;
-  opacity: 0.85;
+  font-size: 15px;
 }
 
 .splash .desc .button {
