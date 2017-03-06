@@ -255,9 +255,10 @@ a .logo:hover, a .logo:focus {
 @media (max-width: 550px) {
   .quote {
     margin: 0;
-    padding: 0 1em 1em 1em;
+    padding: 0 0 1em;
     float: none;
     font-size: 28px;
+    box-shadow: none;
   }
 }
 
