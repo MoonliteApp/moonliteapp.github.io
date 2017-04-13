@@ -31,6 +31,22 @@ input {
   color: #FFF;
 }
 
+input::-webkit-input-placeholder {
+  color: rgba(255,255,255,0.4);
+}
+
+input::-moz-placeholder {
+  color: rgba(255,255,255,0.4);
+}
+
+input:-ms-input-placeholder {
+  color: rgba(255,255,255,0.4);
+}
+
+input:-moz-placeholder {
+  color: rgba(255,255,255,0.4);
+}
+
 .crisp {
   -webkit-font-smoothing: antialiased;
   -moz-font-smoothing: antialiased;
