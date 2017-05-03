@@ -192,7 +192,7 @@ a .logo:hover, a .logo:focus {
 }
 
 .audience {
-  margin-bottom: 2em;
+  margin-bottom: 1em;
 }
 
 .audience h2 {
@@ -286,6 +286,16 @@ a .logo:hover, a .logo:focus {
   }
 }
 
+.promise h2 {
+  font-weight: 700 !important;
+  margin-bottom: 1.5em !important;
+}
+
+.promise p {
+  max-width: 32em !important;
+  font-size: 1.1em !important;
+  margin-bottom: 1em !important;
+}
 
 /* Legal stuff
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
