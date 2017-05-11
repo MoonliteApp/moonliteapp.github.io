@@ -295,6 +295,7 @@ a .logo:hover, a .logo:focus {
   max-width: 32em !important;
   font-size: 1.1em !important;
   margin-bottom: 1em !important;
+  color: #2E4249 !important;
 }
 
 /* Legal stuff
