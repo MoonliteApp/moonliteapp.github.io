@@ -71,6 +71,14 @@ a .logo:hover, a .logo:focus {
   cursor: pointer;
 }
 
+ol {
+  list-style-type: lower-roman;
+}
+
+ul {
+  list-style: disc;
+}
+
 
 /* Hero
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
