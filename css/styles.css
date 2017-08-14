@@ -306,6 +306,15 @@ ul {
   color: #2E4249 !important;
 }
 
+.promise .button {
+  width: 360px !important;
+  margin-top: 3em;
+}
+
+.promise .button img {
+  width: 18px;
+}
+
 /* Legal stuff
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
