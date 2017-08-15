@@ -307,7 +307,7 @@ ul {
 }
 
 .promise .button {
-  width: 360px !important;
+  max-width: 360px;
   margin-top: 3em;
 }
 
