@@ -214,41 +214,10 @@ ul {
   margin: 6em auto 5em;
 }
 
-.change-content {
-  margin: -2em -10em -1em 0;
-}
-
-.economy {
-  display: block;
-  float: left;
-  margin: 0 3.5em;
-}
-
-.economy img {
-  width: 240px;
-  margin-bottom: -1em;
-}
-
-.economy p {
-  text-align: center !important;
-  font-size: 15px !important;
-  color: #8D99AE !important;
-  font-style: italic;
-}
-
-@media (max-width: 800px) {
-  .economy {
-    display: none;
-  }
-  .change-content {
-    margin: -2em 0;
-  }
-}
-
 .lifestyle img {
   border-radius: 3px;
   box-shadow: 4px 12px 40px rgba(0, 0, 0, 0.3);
-  width: 300px;
+  width: 270px;
   margin: 0.5em auto 1.5em;
 }
 
