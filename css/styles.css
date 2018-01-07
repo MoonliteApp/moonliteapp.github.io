@@ -246,6 +246,71 @@ ul {
   margin-top: 4em;
 }
 
+.quote {
+  max-width: 640px;
+  margin: 0 auto;
+  border: 4px solid #4FCC7E;
+  border-radius: 2px;
+  padding: 0 3em 4em;
+  position: relative;
+}
+
+.quote:before {
+  content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 20px solid transparent;
+	border-top-color: #4FCC7E;
+	border-bottom: 0;
+	margin-left: -20px;
+	margin-bottom: -4px;
+  transform: rotate(180deg);
+}
+
+.quote:after {
+  content: '';
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	width: 0;
+	height: 0;
+	border: 14px solid transparent;
+	border-top-color: #FFF;
+	border-bottom: 0;
+	margin-left: -14px;
+	margin-bottom: -4px;
+  transform: rotate(180deg);
+}
+
+.quote h4 {
+  text-transform: uppercase;
+  margin-top: -25px !important;
+  font-size: 14px !important;
+  background-color: #FFF;
+  padding: 1em;
+  text-align: center !important;
+  display: table;
+  letter-spacing: 0.1em !important;
+  color: #8D99AE !important;
+}
+
+.quote-text {
+  font-size: 36px !important;
+  text-align: center !important;
+  max-width: 100% !important;
+}
+
+.quote-source {
+  font-size: 18px !important;
+  color: #8D99AE !important;
+  text-align: center !important;
+  font-style: italic;
+  margin-top: 2.5em !important;
+}
+
 
 /* Legal stuff
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
