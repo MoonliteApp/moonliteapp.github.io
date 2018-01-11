@@ -248,7 +248,7 @@ ul {
 
 .quote {
   max-width: 640px;
-  margin: 0 auto;
+  margin: 1.5em auto;
   border: 4px solid #4FCC7E;
   border-radius: 2px;
   padding: 0 3em 4em;
