@@ -104,27 +104,22 @@ ul {
 }
 
 #hero h1 {
-  font-size: 28px;
+  font-size: 36px;
   font-weight: 700;
   text-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
   margin-bottom: 0.5em;
-  opacity: 0.95;
 }
 
 #hero p {
   opacity: 0.85;
-  font-size: 18px;
+  font-size: 22px;
+  max-width: 400px;
+  margin: 0 auto 2em;
 }
 
-.moon {
-  margin-bottom: 3.5em;
+#hero .container {
+  max-width: 680px;
   text-align: center;
-}
-
-@media (max-width: 550px) {
-  .moon {
-    margin-bottom: 2em;
-  }
 }
 
 .walkthrough img {
@@ -298,7 +293,7 @@ ul {
 }
 
 .quote-text {
-  font-size: 30px !important;
+  font-size: 26px !important;
   text-align: center !important;
   max-width: 100% !important;
 }
@@ -345,6 +340,27 @@ header {
   background-color: #525174;
   text-align: center;
   padding: 2em 1em;
+}
+
+.header {
+  padding: 2em 1em 1.5em;
+}
+
+.header .button {
+  margin-bottom: 0 !important;
+}
+
+.moon {
+  margin-bottom: 1em;
+}
+
+.moon span {
+  position: absolute;
+  margin-left: 1.5em;
+  margin-top: 8px;
+  font-size: 18px;
+  font-style: italic;
+  color: #8D99AE;
 }
 
 
