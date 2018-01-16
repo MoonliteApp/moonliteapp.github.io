@@ -321,6 +321,11 @@ ul {
   }
 }
 
+.payment h4 {
+  max-width: 480px !important;
+  margin: 0 auto !important;
+}
+
 
 /* Legal stuff
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
