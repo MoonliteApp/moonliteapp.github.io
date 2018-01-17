@@ -321,9 +321,35 @@ ul {
   }
 }
 
+.payment {
+  max-width: 480px;
+  margin: 0 auto;
+}
+
 .payment h4 {
-  max-width: 480px !important;
-  margin: 3em auto -0.5em !important;
+  margin: 3em 1em -0.5em 0 !important;
+}
+
+.payment span {
+  background-color: #4FCC7E;
+  color: #FFF;
+  font-size: 15px;
+  font-weight: 400;
+  padding: 0.2em 0.4em;
+  border-radius: 2px;
+  display: inline-block;
+  position: absolute;
+  margin-top: 3px;
+}
+
+.explainer {
+  font-size: 16px !important;
+  color: #8D99AE !important;
+}
+
+.free {
+  background-color: #E1E3E4 !important;
+  color: rgba(0,0,0,0.4) !important;
 }
 
 

@@ -21,7 +21,7 @@
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
   <link rel="stylesheet" href="/css/normalize.css">
   <link rel="stylesheet" href="/css/skeleton.css">
-  <link rel="stylesheet" href="/css/styles.css">
+  <link rel="stylesheet" href="/css/styles.css?<?php echo time(); ?>">
 
   <!-- Favicon
   –––––––––––––––––––––––––––––––––––––––––––––––––– -->
@@ -193,12 +193,15 @@
       <div class="row">
         <hr />
       </div>
-      <div class="row payment">
+      <div class="row">
         <h2>Choose how <b>you get paid</b></h2>
-        <h4>Moonlite direct deposit</h4>
-        <p>We charge <b>$15</b> per direct deposit. By default our fee is added as an expense that is paid for by your client, in which case Moonlite is free for you to use.</p>
-        <h4>Your own payment method</h4>
-        <p>Your payment instructions are emailed to your client when they approve work. Contracts, time and expense tracking, and milestone approvals are still free.</p>
+        <div class="payment">
+          <h4>Direct deposit &nbsp;<span>Save on payments over $500 *</span></h4>
+          <p>We charge <b>$15</b> per direct deposit. By default our fee is added as an expense that is paid for by your client, in which case Moonlite is free for you to use.</p>
+          <p class="explainer crisp">* Compared to payment services that charge 3%.</p>
+          <h4>Custom payment method &nbsp;<span class="free">Completely free</span></h4>
+          <p>Add payment instructions to be emailed to your client when they approve work. Contracts, time and expense tracking, and milestone approvals are still free.</p>
+        </div>
       </div>
     </div>
   </div>
